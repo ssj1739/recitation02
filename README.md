@@ -8,17 +8,11 @@
 
 In this recitation you will be writing some of your first C programs. These exercises
 are ideally done induvidually, however, if you do not have a laptop, talk to the TA
-and he may pair you with someone who does if you do not have a partner already.
+and he may pair you with someone who does.
 
 ### Exercises
 
 * Complete all three programs in the 'c' directory of this repository. Do not touch the main methods, simply provide implementations for the function stubs provided.
-
-* Commit and push your solutions to Github.
-```  
-  git commit -m "commit..." <filename>.c
-  git push origin master
-```
 
 ---
 
@@ -63,7 +57,7 @@ be discovered by Googling.  Click on those Stackoverflow links.  It has many hel
 
 * In the 'unix' directory in this repository make a subdirectory called 'backup'. Copy unix/foo.txt into it.
 
-* Rename the file foo.txt to answers.txt using the command line. (You will put the answers to the next set of exercises into this file.)
+* Rename the file foo.txt to answers.txt using the command line.
 
 * Using the command line only, download and extract the source code of Nginx, a web server. The code's URL is at here: http://nginx.org/download/nginx-1.9.2.tar.gz 
 
@@ -71,11 +65,6 @@ be discovered by Googling.  Click on those Stackoverflow links.  It has many hel
 
 * Using the command line only, find out how many lines are inside the nginx.c file (hint: one solution requires you to run multiple commands separately).
 
-* Commit and push answers.txt to Github:
-```  
-  git commit -m "commit..." <filename>.txt
-  git push origin master
-```
 ---
 
 ## Debug
@@ -98,11 +87,5 @@ To debug, type `gdb foo`.  The most basic gdb commands are: (I give their shortc
 ### Exercises
 
 * Use gdb to debug foo (it is supposed to calculate and print the sum from 1 to 10) (how can you interrupt foo while it is running?).
-* When you discover the problem with the program via gdb, take a screen shot of the console.
-* Add the screen shot to Github.
 * Fix the program.
-* Commit and push the debugged foo.c to Github.
-```
-  git commit "debugged" foo.c 
-  git push origin master
-```
+
