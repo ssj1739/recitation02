@@ -29,7 +29,7 @@ Now you can start working on the files. To submit changes that you have made, co
 	git push -u origin master
 ```
 
-NOTE: Do not clone or make any changes to the master lab repository. That repository is public and any work you put there will be visible to other students. Use the repository created for you (this will be the one that has your github username in the repository name). 
+NOTE: Do not clone or make any changes to the master lab repository (this is cso16-labs). That repository is public and any work you put there will be visible to other students. Use the repository created for you (this will be the one that has your github username in the repository name). 
 
 ## C Programming
 
