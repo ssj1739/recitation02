@@ -4,6 +4,33 @@
 - [Basic UNIX](#basic-unix-usage)
 - [Debugging](#debug)
 
+## Submitting your Labs
+
+Before we get started, here is what you need to know about submitting your work for the labs. Since your work is going to be on the github organzation for the class, your last commit on the lab repository before the deadline will be considered your final submission.
+
+The lab repository will be created for you. The format will be `<YOUR-GITHUB-USERNAME>-<LAB-NAME>`. You can figure it out by searching your github username in the `Repositories` section. Any files that you may need will be present in that repository. 
+
+All you need to do is to clone the repository to your machine (inside the VM):
+
+```
+	git clone <REPOSITORY-LINK>
+```	
+
+For example:
+
+```
+	git clone https://github.com/nyu-cso-fa16/cso16-labs.git
+```
+
+Now you can start working on the files. To submit changes that you have made, commit and push to the remote server in the following manner:
+
+```
+	git commit -am "some comment" 
+	git push -u origin master
+```
+
+NOTE: Do not clone or make any changes to the master lab repository. That repository is public and any work you put there will be visible to other students. Use the repository created for you (this will be the one that has your github username in the repository name). 
+
 ## C Programming
 
 In this recitation you will be writing some of your first C programs. These exercises
