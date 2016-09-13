@@ -19,7 +19,7 @@ All you need to do is to clone the repository to your machine (inside the VM):
 For example:
 
 ```
-	git clone https://github.com/nyu-cso-fa16/cso16-labs.git
+	git clone https://github.com/nyu-cso-fa16/lab1.git
 ```
 
 Now you can start working on the files. To submit changes that you have made, commit and push to the remote server in the following manner:
