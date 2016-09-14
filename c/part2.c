@@ -30,4 +30,8 @@ int main(int argc, char **argv)
 void swap(int *p1, int *p2)
 {
     // TODO: Your code here.
+    // Set a new var to swap.
+    int swap = *p1;
+    *p1 = *p2;
+    *p2 = swap;
 }

@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // Assign the value of 5 to the integer
 // variable pointed to by ptr.
 void set_to_five(int *ptr)
 {
-    // TODO: Your code here.
+    *ptr = 5;
 }
 
 int main(int argc, char **argv)

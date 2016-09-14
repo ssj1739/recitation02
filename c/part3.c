@@ -44,6 +44,11 @@ int main ()
 // arrays.
 int array_sum(int *arr, int n)
 {
-    // TODO: Your code here.
-    return 0;
+    int i = 0;
+    int sum = 0;
+    while(i < n){
+	sum = sum + arr[i];
+        ++i;
+    }
+    return sum;
 }

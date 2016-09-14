@@ -7,6 +7,7 @@ void foo()
     while (i <= 10)
     {
         sum += i;
+        ++i;
     }
     printf("foo: sum of 1...10 is %d\n", sum);
 }
